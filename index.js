@@ -5,27 +5,27 @@ function promptUser(){
         {
             type: "input",
             name: "projectTitle",
-            message: "What is the project title?",
+            message: "Project title?",
         },
         {
             type: "input",
             name: "description",
-            message: "Write a brief description of your project: "
+            message: "Project Description: "
         },
         {
             type: "input",
             name: "installation",
-            message: "Describe the installation process if any: ",
+            message: "Installation Process: ",
         },
         {
             type: "input",
             name: "usage",
-            message: "What is this project usage for?"
+            message: "Whats the Usage?"
         },
         {
             type: "list",
             name: "license",
-            message: "Chose the appropriate license for this project: ",
+            message: "License: ",
             choices: [
                 "Apache",
                 "Academic",
@@ -40,7 +40,7 @@ function promptUser(){
         {
             type: "input",
             name: "contributing",
-            message: "Who are the contributors of this projects?"
+            message: "Contributors?"
         },
         {
             type: "input",
@@ -50,17 +50,17 @@ function promptUser(){
         {
             type: "input",
             name: "questions",
-            message: "What do I do if I have an issue? "
+            message: "How to reporte issues? "
         },
         {
             type: "input",
             name: "username",
-            message: "Please enter your GitHub username: "
+            message: "GitHub username: "
         },
         {
             type: "input",
             name: "email",
-            message: "Please enter your email: "
+            message: "Email: "
         }
     ]);
 } 
