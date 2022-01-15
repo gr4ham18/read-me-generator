@@ -72,3 +72,19 @@ function promptUser(){
         }
     ]);
 } 
+
+// Async function
+async function init() {
+    try {
+        // ask the generate answers
+        const answers = await promptUser();
+        const generateContent = generateReadme(answers);
+        // new README.md
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('✔️ README.md Ready');
+    }   catch(err) {
+        console.log(err);
+    }
+  }
+  
+  init();  
