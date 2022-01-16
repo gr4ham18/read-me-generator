@@ -20,10 +20,16 @@
 - [Questions](#questions)
 
 ## Installation
- after cloning repo use on your terminal npm init npm install inquirer
+ after cloning repo
+open terminal and use
+ npm init 
+ npm install inquirer
 
 ## Usage
-clone repo - install npm - answer questions - readme generated automatically
+- clone repo
+ - install npm 
+ - answer questions 
+ - readme generated automatically
 
 ## License
 ![badge](https://img.shields.io/badge/license-none-brightgreen)
