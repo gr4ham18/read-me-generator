@@ -6,9 +6,6 @@
 ## Description
  Application to facilitate the writing of a README by giving you clear questions and generating a file at the end.
 
-![gr4ham18 README Generator] (src/Untitled_ Jan 15, 2022 7_16 PM.gif)
-  
-(./src/Untitled_ Jan 15, 2022 7_16 PM.webm)
 
 ## Table of Contents
 - [Description](#description)
